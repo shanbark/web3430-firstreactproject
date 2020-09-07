@@ -19,7 +19,7 @@ export class MovieList extends React.Component {
         return (
             <div className="container">
                 <header>
-                    <h1>Top 10 Movies from IMDB</h1>
+                    <h1>Top 10 Movies: Shannon Barker</h1>
                 </header>
                 <nav>
                     <ul>
