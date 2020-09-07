@@ -9,7 +9,7 @@ export class MovieList extends React.Component {
 
     sortMovies() {
         this.state.movies.sort((a, b) => {
-            return a.votes - b.votes
+            return b.votes - a.votes
         })
         this.setState({
             movies: this.state.movies
